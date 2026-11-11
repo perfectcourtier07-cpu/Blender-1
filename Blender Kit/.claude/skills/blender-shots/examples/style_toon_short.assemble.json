@@ -1,0 +1,14 @@
+{
+  "_how": "Copy next to the rendered clip, set video/out/voice/words, run: python .claude/skills/blender-shots/scripts/assemble_video.py <this file>. Leave 'voice' out for a version to lay under your own voice track.",
+  "video": "toon-demo.mp4",
+  "out": "toon-demo-final.mp4",
+  "voice": "voice/vo-paced.wav",
+  "voice_gain": 0.95,
+  "captions": {"style": "pop", "words": "voice/words-paced.json", "max_words": 2, "font": "Montserrat-Bold", "size": 84, "y": 0.66, "stroke": 9},
+  "music": {"preset": "none"},
+  "sfx": [
+    {"t": 0.12, "kind": "saw", "gain": 0.1, "count": 5, "every": 0.42},
+    {"t": 4.4, "kind": "sizzle", "gain": 0.05, "dur": 1.6},
+    {"t": 8.44, "kind": "groan", "gain": 0.22}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "_how": "Copy next to the rendered clip, set video/out/voice, run: python .claude/skills/blender-shots/scripts/assemble_video.py <this file>. Leave 'voice' out (and set music to none) for a version to lay under your own voice track and music.",
+  "video": "space-demo.mp4",
+  "out": "space-demo-final.mp4",
+  "voice": "voice/vo-paced.wav",
+  "voice_gain": 0.95,
+  "captions": {"style": "none"},
+  "labels": [
+    {"t0": 2.35, "t1": 4.15, "text": "TRITON", "x": 250, "y": 590, "size": 64, "color": "#5FD3F3", "font": "Anton-Regular", "spacing": 10, "align": "center"},
+    {"t0": 11.2, "t1": 13.65, "text": "KUIPER BELT", "x": 960, "y": 840, "size": 70, "color": "#F0F0EC", "font": "Anton-Regular", "spacing": 12, "align": "center"}
+  ],
+  "hud": [
+    {"t0": 13.95, "t1": 16.3, "lines": ["VOYAGER 2", "NEPTUNE SYSTEM FLYBY", "DATE: 1989-08-25"], "x": 90, "y": 80, "size": 30, "font": "ShareTechMono-Regular", "brackets": true, "type_on": 0.6},
+    {"t0": 16.55, "t1": 23.25, "lines": ["TRITON  //  SURFACE", "NITROGEN ICE PLAINS"], "x": 90, "y": 80, "size": 30, "font": "ShareTechMono-Regular", "brackets": true, "type_on": 0.6},
+    {"t0": 18.25, "t1": 23.25, "lines": ["PLUME HEIGHT  ~8 KM"], "x": 90, "y": 900, "size": 30, "font": "ShareTechMono-Regular", "type_on": 0.6},
+    {"t0": 20.3, "t1": 23.25, "lines": ["SURFACE TEMP  -235 \u00b0C"], "x": 90, "y": 950, "size": 30, "font": "ShareTechMono-Regular", "type_on": 0.6}
+  ],
+  "music": {"preset": "drone", "gain": 0.16, "swell": [23.4, 28.0]},
+  "sfx": [
+    {"t": 4.3, "kind": "hit", "gain": 0.12},
+    {"t": 16.4, "kind": "hit", "gain": 0.12},
+    {"t": 27.3, "kind": "hit", "gain": 0.45}
+  ],
+  "fade_out": 0.8
+}
